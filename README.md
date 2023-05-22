@@ -6,6 +6,8 @@ Eze uses code generation to generate the boilerplate code.
 
 This project is purely for a "fun" because I'm sick of gRPC, and am imagining a world where there's something easier to use. So... don't use it in production. If you do, then it's your own silly fault if something goes horribly wrong.
 
+What's funny is, it basically doesn't solve any problem that gRPC has, other than being smaller. But it's smaller because it barely functions. But it killed a few hours, and who knows, maybe there's enough other people out there who CBA with gRPC anymore, that this could take off and actual adults could take over the development of this.
+
 
 ## Installation
 
