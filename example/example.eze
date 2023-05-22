@@ -1,0 +1,19 @@
+package users
+
+service UserService {
+	GetUser(request: GetUserRequest): User
+	CreateUser(request: CreateUserRequest): User
+}
+
+struct CreateUserRequest {
+	Name: String
+}
+
+struct User {
+	ID: String
+	Name: String
+}
+
+struct GetUserRequest {
+	ID: String
+}
