@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/EwanValentine/eze-rpc/generator"
 	"log"
 	"os"
+
+	"github.com/EwanValentine/eze-rpc/generator"
 )
 
 func main() {

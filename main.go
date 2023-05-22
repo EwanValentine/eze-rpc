@@ -3,11 +3,12 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/EwanValentine/eze-rpc/generator"
 	"log"
 	"os"
 
 	"github.com/urfave/cli/v2"
+
+	"github.com/EwanValentine/eze-rpc/generator"
 )
 
 func main() {
